@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Young Serif';
-    font-weight: 400;
+    font-weight: 400;   
 }
 
 :root{
@@ -52,8 +52,10 @@ section.first{
 }
 
 .first p{
-    font-size: 12px;
+    font-size: clamp(.4rem, 3vw, .53rem);
     font-weight: 400;
+    color: var(--DarkCharcoal);
+    line-height: 1.59;
 }
 
 img{
